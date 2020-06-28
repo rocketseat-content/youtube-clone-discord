@@ -8,15 +8,9 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
 
-    /*padding: 0 24px 0 0;*/
-
     background-color: var(--primary);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
     z-index: 2;
-
-    /*~ svg {
-        margin: 0 auto 0 0;
-    }*/
 `;
 
 export const SearchBar = styled.h1`
@@ -60,7 +54,6 @@ export const NotificationContainer = styled.div<Props>`
     position: relative;
 
     &::after {
-    /*&.notification {*/
         background-color: var(--notification);
         width: 1px;
         height: 10px;
@@ -72,7 +65,6 @@ export const NotificationContainer = styled.div<Props>`
         right: 2px;
 
         border-radius: 50%;
-        /*border: 4px solid var(--quarternary);*/
 
         content: '';
         display: ${props => props.hasNotifications ? 'inline' : 'none'};
