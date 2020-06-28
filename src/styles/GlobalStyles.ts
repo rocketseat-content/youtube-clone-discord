@@ -31,6 +31,10 @@ export default createGlobalStyle`
     --chat-input: rgb(64,68,75);
     --symbol: #74777a;
 
+    --text-muted: #72767d;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+
     --notification: #f84a4b;
     --discord: #6e86d6;
     --mention-detail: #f9a839;
