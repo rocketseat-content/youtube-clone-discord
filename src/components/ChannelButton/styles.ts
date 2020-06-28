@@ -33,6 +33,14 @@ export const Container = styled.div`
     > div span {
       color: var(--white);
     }
+
+    > div svg {
+      display: flex
+    }
+  }
+
+  > .channelOptions svg {
+    display: none
   }
 `;
 
