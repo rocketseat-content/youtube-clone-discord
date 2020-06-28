@@ -16,6 +16,8 @@ export const Container = styled.div`
   ::-webkit-scrollbar {
     display: none;
   }
+  /* For Firefox */
+  scrollbar-width: none;
 `;
 
 export const Separator = styled.div`

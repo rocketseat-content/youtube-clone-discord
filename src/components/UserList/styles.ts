@@ -24,6 +24,10 @@ export const Container = styled.div`
   ::-webkit-scrollbar-track {
     background-color: var(--secondary);
   }
+
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--tertiary) var(--secondary);
 `;
 
 export const Role = styled.span`
