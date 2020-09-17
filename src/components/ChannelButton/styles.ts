@@ -33,6 +33,14 @@ export const Container = styled.div`
     > div span {
       color: var(--white);
     }
+
+    > div:not(:first-child) svg {
+      display: flex;
+    }
+  }
+
+  > div:not(:first-child) svg {
+    display: none;
   }
 `;
 
