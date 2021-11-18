@@ -21,16 +21,22 @@ export const Messages = styled.div`
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 16px;
   }
 
   ::-webkit-scrollbar-thumb {
+    width: 4px;
     background-color: var(--tertiary);
-    border-radius: 4px;
+    border-radius: 8px;
+    background-clip: content-box;
+    border: 4px solid transparent;
   }
 
   ::-webkit-scrollbar-track {
     background-color: var(--secondary);
+    background-clip: content-box;
+    border-radius: 8px;
+    border: 4px solid transparent;
   }
 `;
 
