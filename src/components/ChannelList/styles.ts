@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding: 24px 9.5px 0 16px;
+  padding: 24px 0 13px 12px;
   background-color: var(--secondary);
 `;
 
@@ -16,6 +16,7 @@ export const Category = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  width: 208px;
   margin-bottom: 6px;
 
   > span {
