@@ -11,18 +11,28 @@ export const Container = styled.div`
 
   max-height: calc(100vh - 46px);
   overflow-y: scroll;
-
+  
   ::-webkit-scrollbar {
-    width: 4px;
+    width: 8px;
+    display: none;
+  }
+
+  &:hover {
+    ::-webkit-scrollbar {
+      display: block;
+    }
   }
 
   ::-webkit-scrollbar-thumb {
+    width: 1px;
     background-color: var(--tertiary);
-    border-radius: 4px;
+    border-radius: 8px;
+    background-clip: content-box;
+    border: 2px solid transparent;
   }
-
+  
   ::-webkit-scrollbar-track {
-    background-color: var(--secondary);
+    background-color: transparent;
   }
 `;
 
@@ -38,6 +48,7 @@ export const Role = styled.span`
 export const User = styled.div`
   margin-top: 5px;
   padding: 5px;
+  width: 210px;
 
   display: flex;
   align-items: center;
